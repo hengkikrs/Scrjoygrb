@@ -1,0 +1,6 @@
+{
+  "name": "Grab Desktop Automation Agent",
+  "description": "Aplikasi RPA berbasis ADB, scrcpy, dan OCR untuk mengelola data POI dari CSV serta membantu operator mengisi formulir Grab secara terkontrol dengan Assisted Mode, checkpoint persisten, dan validasi lokal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

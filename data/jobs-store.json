@@ -1,0 +1,236 @@
+{
+  "jobs": [
+    {
+      "job_id": "job_poi_jakarta_batch_01",
+      "source_filename": "poi_jakarta_batch.csv",
+      "delimiter": ",",
+      "created_at": "2026-11-25T08:42:13.158Z",
+      "updated_at": "2026-11-25T08:42:13.158Z",
+      "total_rows": 8,
+      "job_status": "IDLE"
+    }
+  ],
+  "active_job_id": "job_poi_jakarta_batch_01",
+  "records": [
+    {
+      "record_id": "rec_001_1f652792",
+      "source_row_number": 1,
+      "poi_name": "Kopi Pagi Kemang",
+      "phone_number": "081234567890",
+      "website": "https://kopipagi.example",
+      "opening_hours": "Mon-Sun 08:00-22:00",
+      "status": "PENDING",
+      "notes": "",
+      "attempt_count": 0,
+      "last_error": null,
+      "job_id": "job_poi_jakarta_batch_01",
+      "updated_at": "2026-11-25T08:42:13.158Z"
+    },
+    {
+      "record_id": "rec_002_0d7fee9d",
+      "source_row_number": 2,
+      "poi_name": "Toko Sejahtera Mandiri",
+      "phone_number": "082112223333",
+      "website": "https://tokosejahtera.example",
+      "opening_hours": "Mon-Sat 09:00-17:00",
+      "status": "PENDING",
+      "notes": "",
+      "attempt_count": 0,
+      "last_error": null,
+      "job_id": "job_poi_jakarta_batch_01",
+      "updated_at": "2026-11-25T08:42:13.158Z"
+    },
+    {
+      "record_id": "rec_003_5ff31bfd",
+      "source_row_number": 3,
+      "poi_name": "Restoran Nusantara Asli",
+      "phone_number": "081298765432",
+      "website": "",
+      "opening_hours": "Mon-Sun 10:00-21:00",
+      "status": "PENDING",
+      "notes": "",
+      "attempt_count": 0,
+      "last_error": null,
+      "job_id": "job_poi_jakarta_batch_01",
+      "updated_at": "2026-11-25T08:42:13.158Z"
+    },
+    {
+      "record_id": "rec_004_3ac56b3c",
+      "source_row_number": 4,
+      "poi_name": "Apotek Sehat Sentosa",
+      "phone_number": "+6281399887766",
+      "website": "https://apoteksehat.example",
+      "opening_hours": "24/7",
+      "status": "PENDING",
+      "notes": "",
+      "attempt_count": 0,
+      "last_error": null,
+      "job_id": "job_poi_jakarta_batch_01",
+      "updated_at": "2026-11-25T08:42:13.158Z"
+    },
+    {
+      "record_id": "rec_005_b708a52c",
+      "source_row_number": 5,
+      "poi_name": "Warung Sate Pak Budi",
+      "phone_number": "085611223344",
+      "website": "",
+      "opening_hours": "Buka pagi sampai sore habis",
+      "status": "NEEDS_REVIEW",
+      "notes": "UNMAPPABLE_OPENING_HOURS",
+      "attempt_count": 0,
+      "last_error": null,
+      "job_id": "job_poi_jakarta_batch_01",
+      "updated_at": "2026-11-25T08:42:13.158Z"
+    },
+    {
+      "record_id": "rec_006_da5e8515",
+      "source_row_number": 6,
+      "poi_name": "",
+      "phone_number": "081122334455",
+      "website": "https://tanpanama.example",
+      "opening_hours": "Mon-Fri 08:00-16:00",
+      "status": "SKIPPED",
+      "notes": "MISSING_POI_NAME",
+      "attempt_count": 0,
+      "last_error": null,
+      "job_id": "job_poi_jakarta_batch_01",
+      "updated_at": "2026-11-25T08:42:13.158Z"
+    },
+    {
+      "record_id": "rec_007_5a56dbe5",
+      "source_row_number": 7,
+      "poi_name": "Bakery Melati Sudirman",
+      "phone_number": "081777889900",
+      "website": "https://bakerymelati.example",
+      "opening_hours": "Mon-Sun 07:00-20:00",
+      "status": "SUCCESS",
+      "notes": "Terverifikasi pada batch sebelumnya",
+      "attempt_count": 0,
+      "last_error": null,
+      "job_id": "job_poi_jakarta_batch_01",
+      "updated_at": "2026-11-25T08:42:13.158Z"
+    },
+    {
+      "record_id": "rec_008_d5df6f2d",
+      "source_row_number": 8,
+      "poi_name": "Bengkel Motor Jaya",
+      "phone_number": "081900112233",
+      "website": "not-a-valid-url",
+      "opening_hours": "Mon-Sat 08:30-18:00",
+      "status": "NEEDS_REVIEW",
+      "notes": "INVALID_WEBSITE_URL",
+      "attempt_count": 0,
+      "last_error": null,
+      "job_id": "job_poi_jakarta_batch_01",
+      "updated_at": "2026-11-25T08:42:13.158Z"
+    }
+  ],
+  "logs": [
+    {
+      "log_id": "log_seed_01",
+      "job_id": "job_poi_jakarta_batch_01",
+      "record_id": null,
+      "timestamp": "2026-11-25T08:42:13.158Z",
+      "level": "INFO",
+      "state": "IDLE",
+      "message": "Aplikasi dimulai. Database checkpoint lokal (SQLite-compatible store) siap."
+    },
+    {
+      "log_id": "log_seed_02",
+      "job_id": "job_poi_jakarta_batch_01",
+      "record_id": null,
+      "timestamp": "2026-11-25T08:42:13.158Z",
+      "level": "INFO",
+      "state": "IDLE",
+      "message": "CSV dimuat: poi_jakarta_batch.csv (8 baris — 4 siap diproses, 1 sudah SUCCESS, 1 dilewati, 2 perlu tinjauan)."
+    }
+  ],
+  "workflow_profile": {
+    "profile_name": "Grab POI Form — Calibrated Profile (1080×2400)",
+    "target_resolution": "1080x2400",
+    "ocr_confidence_threshold": 0.82,
+    "max_retries_non_final": 2,
+    "max_scrolls_per_state": 3,
+    "action_timeout_ms": 8000,
+    "fields": [
+      {
+        "key": "poi_name",
+        "label_patterns": [
+          "Nama Tempat",
+          "Place Name",
+          "POI Name"
+        ],
+        "required": true,
+        "requires_scroll": false,
+        "anchor_pct": {
+          "x": 50,
+          "y": 27
+        },
+        "verify_normalization": "trim_case"
+      },
+      {
+        "key": "phone_number",
+        "label_patterns": [
+          "Nomor Telepon",
+          "Phone Number",
+          "No. Telepon"
+        ],
+        "required": false,
+        "requires_scroll": false,
+        "anchor_pct": {
+          "x": 50,
+          "y": 45
+        },
+        "verify_normalization": "phone_digits"
+      },
+      {
+        "key": "website",
+        "label_patterns": [
+          "Website",
+          "Situs Web",
+          "URL"
+        ],
+        "required": false,
+        "requires_scroll": false,
+        "anchor_pct": {
+          "x": 50,
+          "y": 63
+        },
+        "verify_normalization": "url_clean"
+      },
+      {
+        "key": "opening_hours",
+        "label_patterns": [
+          "Jam Operasional",
+          "Opening Hours",
+          "Jam Buka"
+        ],
+        "required": false,
+        "requires_scroll": true,
+        "anchor_pct": {
+          "x": 50,
+          "y": 48
+        },
+        "verify_normalization": "schedule_clean"
+      }
+    ]
+  },
+  "app_settings": {
+    "adb_executable_path": "adb",
+    "scrcpy_executable_path": "scrcpy",
+    "scrcpy_options": {
+      "max_size": 1280,
+      "max_fps": 30,
+      "no_audio": true,
+      "stay_awake": true,
+      "always_on_top": false,
+      "turn_screen_off": false
+    },
+    "automation_mode": "ASSISTED",
+    "auto_submit_policy_acknowledged": false,
+    "skip_existing_success": true,
+    "step_delay_ms": 520,
+    "ai_assistance_enabled": false,
+    "ai_consent_granted": false
+  }
+}
